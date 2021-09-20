@@ -117,4 +117,35 @@ and the repository exists.
 C:\Aline Santos\repo\git-teste (HEAD detached at 64aa8ee)
 λ
        
+
+novo
+
+Acer@DESKTOP-SRHNL00 MINGW64 /c/Aline Santos/repo/git-teste/git-teste (main)
+$ git add .
+
+Acer@DESKTOP-SRHNL00 MINGW64 /c/Aline Santos/repo/git-teste/git-teste (main)
+$ git commit -m "primeiro commit"
+[main 6c913d4] primeiro commit
+ 8 files changed, 148 insertions(+)
+ create mode 100644 abc.txt
+ create mode 100644 aula.txt
+ create mode 100644 black.txt
+ create mode 100644 cor.txt
+ create mode 100644 frase.txt
+ create mode 100644 fruta.txt
+ create mode 100644 readm.txt
+ create mode 100644 resultado.txt
+
+Acer@DESKTOP-SRHNL00 MINGW64 /c/Aline Santos/repo/git-teste/git-teste (main)
+$ git push
+Enumerating objects: 9, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.87 KiB | 479.00 KiB/s, done.
+Total 8 (delta 0), reused 2 (delta 0), pack-reused 0
+To https://github.com/run79/git-teste.git
+   04f6f96..6c913d4  main -> main
+
+Acer@DESKTOP
    
